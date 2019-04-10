@@ -1,0 +1,31 @@
+### Packages & Other
+
+#lists the functions in a package
+lsf.str("package:googlesheets")
+
+#SQL packages
+library("RODBC", lib.loc="~/R/R-3.4.2/library")
+
+##GA related
+library(googledrive)
+library("googleAuthR", lib.loc="~/R/R-3.4.2/library")
+library("googleAnalyticsR", lib.loc="~/R/R-3.4.2/library")
+library(googlesheets)
+ga_auth()
+view_id <- XXXXXXX
+
+#Other packages
+library("dplyr", lib.loc="~/R/R-3.4.2/library")
+library(readxl)
+library(openxlsx)
+library(lubridate)
+library(tidyverse)
+library(arules)
+library(tidyr)
+library(ggrepel)
+library(arulesViz)
+library(stats)
+library(excel.link)
+library("ggplot2", lib.loc="~/R/R-3.4.2/library")
+library("lattice", lib.loc="~/R/R-3.4.2/library")
+library(RGA)
